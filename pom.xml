@@ -7,11 +7,11 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>myfirstweb Maven Webapp</name>
   <url>http://maven.apache.org</url>
-  <parent>
-    <groupId>myweb</groupId>
-  <artifactId>parent-pom</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  </parent>
+<!--   <parent> -->
+<!--     <groupId>myweb</groupId> -->
+<!--   <artifactId>parent-pom</artifactId> -->
+<!--   <version>0.0.1-SNAPSHOT</version> -->
+<!--   </parent> -->
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -19,6 +19,14 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    
+    <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.22</version>
+</dependency>
+    
   </dependencies>
  
 </project>
